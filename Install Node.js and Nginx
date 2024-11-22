@@ -1,2 +1,14 @@
+#Update the package manager
 sudo yum update -y  # For Amazon Linux
 sudo apt update -y  # For Ubuntu
+
+#Install Node.js
+sudo yum install -y nodejs npm   # Amazon Linux
+sudo apt install -y nodejs npm   # Ubuntu
+
+#Install Nginx 
+sudo yum install -y nginx  # Amazon Linux
+sudo apt install -y nginx  # Ubuntu
+sudo systemctl start nginx
+sudo systemctl enable nginx
+**
